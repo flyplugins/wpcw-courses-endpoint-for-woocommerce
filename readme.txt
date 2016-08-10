@@ -18,7 +18,7 @@ This plugin will allow you to add a new tab called "My Courses" to the My Accoun
 
 = Basic Configuration Steps =
 1. Install and activate the plugin
-2. Create a page with a slug "my-courses" (make sure it is not a child-page). You can modify the slug, however you will need to modfiy line 16 of the main plugin file.
+2. Create a page with a slug "my-courses" (make sure it is not a child-page). You can modify the slug, however you will need to modfiy line 19 of the main plugin file.
 3. Add the [wpcourse_progress] shortcode in the main body of the page.
 4. Save your page.
 
@@ -42,11 +42,11 @@ This is not an actual membership plugin. It is only the integration, or “middl
 
 = Can I modify the slug of the My Courses page? =
 
-Yes! Simply modify line 16 of the main plugin file to match your slug. Take note that the default permalink structure for the endpoints is /account/***, so if you want to move up to the root level you will need to prefix with "../". 
+Yes! Simply modify line 19 of the main plugin file to match your slug. Take note that the default permalink structure for the endpoints is /account/***, so if you want to move up to the root level you will need to prefix with "../". 
 
 = Can you modify the name of the endpoint? =
 
-Yes! On line 67 and 87 of the main plugin file, simply change the "My Courses" text.
+Yes! On line 45 and 65 of the main plugin file, simply change the "My Courses" text.
 
 = Where can I get WP Courseware? =
 
